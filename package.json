@@ -1,0 +1,27 @@
+{
+  "name": "hubot-botframework",
+  "version": "0.1.0",
+  "description": "This is a Hubot adapter for Bot Framework",
+  "main": "src/botframework.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-adapter",
+    "teams"
+  ],
+  "author": "Jason Lam <jasoncylam@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.8.3",
+    "parent-require": "^1.0.0",
+    "restify": "^4.3.0"
+  },
+  "peerDependencies": {
+    "hubot": ">=2.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  }
+}
